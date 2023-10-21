@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  ::-webkit-scrollbar{
+    width:5px;
+    background:#040D12;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: #0B363E;
+  }
+  html{
+    font-family:"Montserrat";
+  }
+   #hero-page{
+     background-image:url("/background.jpg");
+     background-position:center;
+     background-size:cover;
+   }
+}
